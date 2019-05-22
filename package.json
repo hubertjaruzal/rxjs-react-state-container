@@ -1,15 +1,28 @@
 {
     "name": "rxjs-react-state-container",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "State container for React applications based on RxJS",
     "author": "Hubert Jaruzal <hubertjaruzal@gmail.com>",
-    "main": "index.js",
+    "main": "build/index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "webpack --watch",
+      "build": "webpack"
+    },
+    "dependencies": {
+      "react": "^16.8.6",
+      "rxjs": "^6.4.0",
+      "webpack": "^2.6.1"
     },
     "devDependencies": {
       "react": "^16.8.6",
-      "rxjs": "^6.4.0"
+      "rxjs": "^6.4.0",
+      "babel-cli": "^6.24.1",
+      "babel-core": "^6.24.1",
+      "babel-loader": "^7.0.0",
+      "babel-plugin-transform-object-rest-spread": "^6.23.0",
+      "babel-plugin-transform-react-jsx": "^6.24.1",
+      "babel-preset-env": "^1.5.1"
     },
     "keywords": [
       "State Container",
