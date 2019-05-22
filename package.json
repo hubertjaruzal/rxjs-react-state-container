@@ -1,6 +1,6 @@
 {
     "name": "rxjs-react-state-container",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "State container for React applications based on RxJS",
     "author": "Hubert Jaruzal <hubertjaruzal@gmail.com>",
     "main": "index.js",
