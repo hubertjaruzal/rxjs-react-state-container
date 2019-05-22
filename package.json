@@ -1,0 +1,23 @@
+{
+    "name": "rxjs-react-state-container",
+    "version": "1.0.0",
+    "description": "State container for React applications based on RxJS",
+    "author": "Hubert Jaruzal <hubertjaruzal@gmail.com>",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+      "react": "^16.8.6",
+      "rxjs": "^6.4.0"
+    },
+    "keywords": [
+      "State Container",
+      "State Manager",
+      "State Managment Tool",
+      "State Container React",
+      "State Manager React",
+      "State Container RxJS",
+      "State Manager RxJS"
+    ]
+  }
