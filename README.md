@@ -35,7 +35,7 @@ ReactDOM.render(
 );
 ```
 
-2. Import `connect` if you want to use values from the global state. 
+2. Import `connect` if you want to use values from the global state inside your React Component. 
 
 ```js
 import { connect } from "rxjs-react-state-container";
